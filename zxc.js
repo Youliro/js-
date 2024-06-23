@@ -3,5 +3,5 @@ var counter=document.getElementById("counter");
 
 function addClick(){
   click +=1;
-  counter.textContent='clicks:'+ click;
+  counter.textContent='usseles clicks : '+ click;
 }
