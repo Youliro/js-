@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC&display=swap'); 
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -144,3 +145,30 @@ footer p {
   font-size: 16px;
 }
 
+.but{
+  font-size: 20px;
+  color: white;
+  border: 3px;
+  text-align: center;
+  background-color: gray;
+  margin: auto;
+  padding: 7px;
+  height: 35px;
+  font-family: "LXGW WenKai Mono TC", monospace;
+  font-weight: 400;
+  font-style: normal;
+  cursor: pointer;
+}
+
+.counter{
+  color: gray;
+  font-size: 25px;
+  font-family: "LXGW WenKai Mono TC", monospace;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.but:hover{
+  background-color: #a19b9b;
+}
